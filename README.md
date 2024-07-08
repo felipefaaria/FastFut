@@ -1,6 +1,14 @@
 # FastFut
 
-Nosso objetivo com o aplicativo FastFut é facilitar a organização de partidas de futebol entre amigos, conectando jogadores a quadras próximas. Com nosso sistema, você pode encontrar quadras facilmente, convidar amigos e agendar partidas com apenas alguns cliques.
+O FastFut é um projeto de software desenvolvido para a matéria TI02 da PUC Minas, com o objetivo de transformar a organização de partidas de futebol entre amigos. Nossa plataforma conecta jogadores a quadras próximas, simplificando todo o processo.
+
+Com o FastFut, você pode:
+
+    Encontrar quadras com facilidade em sua região
+    Agendar partidas com apenas alguns cliques
+    Conectar-se com outros jogadores para formar equipes
+
+Aproveite a conveniência e praticidade que o FastFut oferece e nunca mais perca tempo organizando seu futebol!
 
 ## Alunos integrantes da equipe
 
