@@ -1,0 +1,21 @@
+.image-analyzer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+.image-analyzer-text {
+  width: 60%;
+  margin-top: 2rem;
+}
+.image-analyzer-title {
+  font-size: 20px;
+  color: #007bff;
+}
+.image-analyzer-desc {
+  font-size: 18px;
+  text-align: center;
+  font-weight: 600;
+}

@@ -1,0 +1,111 @@
+.container {
+  background: #dfebf5;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.container-chamada {
+  background: #d6e7f1;
+  padding: 15rem 0;
+}
+.chamada-title {
+  font-size: 60px;
+  color: #007bff;
+}
+.chamada-desc {
+  color: #081281;
+  font-size: 32px;
+  font-style: italic;
+}
+.chamada-button {
+  width: 20rem;
+}
+.chamada-button-title {
+  color: #fff;
+  font-size: 22px;
+}
+.quadrados-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.quadrado-title {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.quadrado {
+  width: 25%;
+  padding: 5rem;
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+.icone {
+  font-size: 50px;
+}
+.azul-escuro {
+  display: flex;
+  flex-direction: column;
+  background-color: #1a237e;
+}
+
+.azul-claro {
+  display: flex;
+  flex-direction: column;
+  background-color: #2196f3;
+}
+
+/* Estilos responsivos para os quadrados */
+@media screen and (max-width: 768px) {
+  .quadrado {
+    width: calc(50% - 20px);
+  }
+}
+.carousel-container {
+  width: 100%;
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: center;
+}
+.carousel-view {
+  max-width: 30%;
+  height: auto;
+  border-radius: 50rem;
+  border-width: 50rem;
+  border-color: #0056b3;
+}
+
+.carousel-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .carousel-view {
+    max-width: 80%;
+  }
+}
+
+.chamada-button {
+  width: 20rem;
+  margin-bottom: 2rem;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  background: #007bff;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.chamada-button:hover {
+  background: #0056b3;
+}

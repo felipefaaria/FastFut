@@ -1,0 +1,246 @@
+/* src/components/CourtList.css */
+.court-list-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+
+  background-color: #e6f7ff;
+}
+.header {
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  max-width: 800px;
+  padding: 20px;
+  box-sizing: border-box;
+  flex: auto;
+}
+
+.search-bar {
+  width: 95%;
+  align-self: center;
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  width: 95%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.court-list {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+}
+
+.court-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.court-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.court-info {
+  flex: 1;
+}
+
+.court-info h3 {
+  margin: 0 0 5px 0;
+  font-size: 18px;
+}
+
+.court-info p {
+  margin: 0;
+  font-size: 14px;
+  color: #555;
+}
+/* Estilos para o botão de agendamento no modal */
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin: auto auto;
+}
+
+.booking-button {
+  margin-right: 20px; /* Espaço à direita para separar do botão Fechar */
+}
+/* Estilos para o componente CourtList */
+.court-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.court-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.court-image {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+.court-info {
+  flex-grow: 1;
+}
+
+.booking-button {
+  width: 10rem;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  background: #007bff;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.modal-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.court-info-modal {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.court-image-modal {
+  width: 80%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 20px;
+  /* Ajusta a opacidade para deixar a imagem um pouco opaca */
+  filter: grayscale(100%); /* Torna a imagem preto e branco */
+  border: 2px solid #ccc; /* Borda discreta */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.court-modal-title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.booking-modal-form-container {
+  width: 70%;
+}
+.booking-modal-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+.modal-form-label {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.modal-form-input {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.modal-date-input {
+  width: 30px;
+}
+.modal-input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+.modal-button {
+  padding: 0.75rem;
+  width: 100%;
+  margin-top: 15px;
+  background-color: #007bff;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+.modal-button-close {
+  background-color: #f33900;
+  padding: 0.75rem;
+  width: 100%;
+  color: #fff;
+  border: none;
+  font-size: 1rem;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+@media (max-width: 600px) {
+  .court-info {
+    margin-right: 1rem;
+  }
+  .booking-button {
+    width: 5rem;
+    text-align: center;
+    padding: 0.2rem 0.2rem;
+  }
+}
+.loading-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.loading-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(233, 244, 255, 0.884);
+  z-index: 1;
+}
+
+.loading-lottie {
+  position: relative;
+  z-index: 2;
+  width: 150px;
+  height: 150px;
+}

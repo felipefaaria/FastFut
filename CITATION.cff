@@ -1,0 +1,23 @@
+cff-version: 1.0.1
+message: Please cite this software using these metadata.
+title: Fastfut
+authors:
+  - family-names: Silva Faria
+    given-names: Felipe
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Soares Vieira de Vasconcelos
+    given-names: Amália
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Jerônimo de Almeida
+    given-names: Sandro
+keywords:
+  - sports
+  - booking
+  - court
+  - management
+repository-code: https://github.com/ICEI-PUC-Minas-CC-TI/plmg-cc-ti2-2024-1-g11-fastfut
+license: CC-BY-4.0
+version: 1.0.0
+date-released: 2024-06-20
